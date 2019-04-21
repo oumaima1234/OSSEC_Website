@@ -1,0 +1,108 @@
+span[class^='jss']{
+  font-size: 16px ;
+}
+
+h6[class^='jss']{
+  font-size: 53px ;
+}
+button[id^='ilm-full-screen-save'] {
+  font-size: 15px !important;
+  text-transform: none;
+}
+.jss4 {
+  font-size: 20px !important;
+}
+
+.jss51, .jss41 , .jss412  {
+  font-size: 16px !important;
+}
+
+
+
+p[class^='jss']{
+  font-size: 14px !important;
+}
+
+.jss43 {
+  font-size: 15px !important;
+}
+
+.mui-fixed {
+height: 70px !important;
+}
+.jss403 {
+  margin-top: 5px !important;
+}
+
+
+li[class^='jss']{
+  font-size: 15px !important;
+
+}
+
+
+label[class^='jss']{
+  font-size: 15px !important;
+  line-height: 0 !important;
+  font-weight: 500 !important; 
+
+}
+input[type='text'], textarea{
+  font-size: 15px !important;
+}
+
+input[type='number']{
+  font-size: 15px !important;
+}
+
+legend[class^='jss']{
+  font-size: 17px !important;
+border-bottom: none !important;
+}
+
+div[role='button']{
+  font-size: 15px !important;
+
+}
+span[id*='snackbar']{
+  font-size: 16px !important;
+}
+
+@keyframes flickerAnimation {
+  0%   { opacity:1; }
+  50%  { opacity:0.2; }
+  100% { opacity:1; }
+}
+@-o-keyframes flickerAnimation{
+  0%   { opacity:1; }
+    50%  { opacity:0.2; }
+    100% { opacity:1; }
+}
+@-moz-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0.2; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0.2; }
+    100% { opacity:1; }
+}
+.animate-flicker {
+   -webkit-animation: flickerAnimation 2s infinite;
+   -moz-animation: flickerAnimation 2s infinite;
+   -o-animation: flickerAnimation 2s infinite;
+   animation: flickerAnimation 2s infinite;
+ font-size: 20em;
+}
+   
+.ilm-loader{
+   display: table;
+   margin-left: auto;
+   margin-right: auto;
+ margin-top: 5em;
+}
+
+
+
+

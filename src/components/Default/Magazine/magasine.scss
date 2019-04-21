@@ -1,0 +1,139 @@
+ /*<< important styles*/
+ .slider{
+	position: relative;
+	width: max-content;
+      }
+      
+      .slider-container {
+	max-width: 760px;
+	max-height: 704px;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	position: relative;
+      }
+      .controler{
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-around;
+	right: -10%;
+	top: 37%;
+	max-width: 600px;
+	height: 550px;
+	width: 100%;
+	background: #A7C3DB;
+	position: absolute;
+	z-index: -1;
+	font-size: 90px;
+      }
+      
+      .slider-innerContainer {
+	transition: left 0.8s ease-out;
+	display: flex;
+	position: relative;
+	height: 100%;
+      }
+      .slider-innerContainer > * {
+	width: 100%;
+	height: 100%;
+	flex-shrink: 0;
+      }
+      .slider-innerContainer > * img {
+	height: 804px;
+      }
+      
+      .slider-dots {
+	position: absolute;
+	text-align: center;
+	bottom: 10px;
+	left: 0;
+	display: flex;
+	justify-content: center;
+      }
+      
+      .slider-dots div {
+	cursor: pointer;
+	width: 40px;
+	height: 40px;
+      }
+      
+      .slid__number{
+	position: absolute;
+	z-index: 2;
+	bottom: -5%;
+	font-size: 72px;
+	font-weight: 800;
+	left: 65%;
+      }
+      
+      .slid__arrow{
+	font-size: 110px;
+	height: 90px;
+	margin-bottom: 30px;
+	cursor: pointer;
+      }
+       /*important styles >>*/
+      body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #011D6A;
+      } 
+      
+      .article{
+	position: relativ;
+	margin-left: 180px;
+	margin-right: 100px;
+	max-width: 810px;
+      }
+      
+      h1{
+	font-family: 'Chonburi', cursive;
+	font-size: 62px;
+	margin-left: -40px;
+      }
+      p{
+	font-family: 'Heebo', sans-serif;
+	font-size: 18px;
+	line-height: 26px;
+      }
+      
+      button {
+	margin-top: 20px;
+	background-color: #011D6A; 
+	border: none;
+	color: white;
+	padding: 15px 30px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 5px;
+      }
+      
+      .rectangle{
+	position: absolute;
+	z-index: -1;
+	top: 10%;
+	right: 0;
+	background: #3280a769;
+	width: 25%;
+	height: 45%;
+      }
+      
+      .fa-instagram{
+	position: absolute;
+	bottom: 83%;
+	right: 2%;
+	font-size: 38px;
+	color: #011D6A;
+      }
+      
+      .fa-instagram:hover{
+	font-size: 42px;
+	color: #dca118;
+	transition: all .1s linear;
+	cursor: pointer;
+      }
