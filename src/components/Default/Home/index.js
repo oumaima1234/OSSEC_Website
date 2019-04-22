@@ -3,8 +3,8 @@ import { withStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
 import './index.scss';
-import SocialIcons from '../../CommonUi/socialIcons';
-//import Pics from '../../CommonUi/partners';
+import SocialIcons from '../../GenericComponents/socialIcons';
+import Pics from '../../GenericComponents/partners';
 
 
 const styles = theme => ({
@@ -157,6 +157,7 @@ class Configuration extends Component {
         
       <SocialIcons />
 
+      <Pics></Pics>
      </div>          
 
     );
