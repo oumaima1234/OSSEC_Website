@@ -7,6 +7,7 @@ import Magazine from "./Magazine";
 import Trainings from "./Trainings";
 import Team from "./Team";
 import Contact from "./Contact";
+import Footer from "../CommonUI/Footer"
 class Default extends Component {
   render() {
     return(
@@ -43,7 +44,7 @@ class Default extends Component {
                 }
                     ]
       } ></Tab>
-
+        <Footer></Footer>
       
       </div>
     );}

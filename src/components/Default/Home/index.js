@@ -5,6 +5,8 @@ import Grid from "@material-ui/core/Grid";
 import './index.scss';
 import SocialIcons from '../../GenericComponents/socialIcons';
 import Pics from '../../GenericComponents/partners';
+import Player from '../../GenericComponents/video';
+import YoutubePlayer from '../../GenericComponents/videoYoutube';
 
 
 const styles = theme => ({
@@ -41,7 +43,8 @@ class Configuration extends Component {
     this.state= {
       hover: false,
       height1: 100,
-      height2: 300
+      height2: 300,
+      isYoutube: true,
     };
   }
   
@@ -98,17 +101,9 @@ class Configuration extends Component {
       <div>
       <Grid container >
         <Grid className="item1 " item xs={6}>
-        <video width="100%" height="500" 
-        controls
-        playsInline
-            autoPlay
-            muted=""
-            loop>
-  <source src="https://s3.amazonaws.com/codecademy-content/courses/React/react_video-eek.mp4" type="video/mp4"/>
-  <source src="https://s3.amazonaws.com/codecademy-content/courses/React/react_video-eek.mp4" type="video/ogg"/>
-  Your browser does not support the video tag.
-</video>
-</Grid>
+        {this.state.isYoutube ?    <YoutubePlayer/> :   <Player/> }
+        
+        </Grid>
 
         <Grid className="item2 " item xs={6}>
         <div  className=" style_prevu_kit content" >
@@ -158,6 +153,7 @@ class Configuration extends Component {
       <SocialIcons />
 
       <Pics></Pics>
+   
      </div>          
 
     );
