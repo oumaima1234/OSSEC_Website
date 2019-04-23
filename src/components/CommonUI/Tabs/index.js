@@ -30,18 +30,21 @@ const styles = theme => ({
     backgroundColor: theme.palette.background.paper,
   },
   tabsRoot: {
-    backgroundColor: "#1AB394", // tab bg color
+    backgroundColor: "#ebebeb", // tab bg color
 
   },
   tabsIndicator: {
-    backgroundColor: baseColor, // underlined color
+  //  backgroundColor: baseColor, // underlined color
   },
   tabRoot: {
     textTransform: 'initial',
     minWidth: 72,
+    //maxHeight: 192,
+
     fontSize: 20,
-    'color': '#555555a1', //text color
-   
+    'color': '#000', //text color
+    //fontSize: '18px',
+    //fontWeight: 400,
     fontFamily: [
       '-apple-system',
       'BlinkMacSystemFont',
@@ -64,7 +67,7 @@ const styles = theme => ({
       fontWeight: theme.typography.fontWeightMedium,
     },
     '&:focus': {
-      color: '#555555a1',
+      color: '#4fc3f7',
     },
   },
   tabSelected: {},
@@ -93,6 +96,9 @@ class CustomizedTabs extends React.Component {
           value={value}
           onChange={this.handleChange}
           classes={{ root: classes.tabsRoot, indicator: classes.tabsIndicator }}
+          indicatorColor="#81d4fa
+          "
+
         >
         {this.props.items.map(item => (
           <Tab

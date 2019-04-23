@@ -10,11 +10,16 @@ import Contact from "./Contact";
 import Footer from "../CommonUI/Footer"
 class Default extends Component {
   render() {
+    var logo_ossec=require('../../images/logo_ossec.png')
     return(
-      <div id = {this.props.id}>
+      <div id = {this.props.id}> 
       <Tab id="ilm-main-tab" 
             items = {[
-                { content: <Home id ="ossec-home"/>,
+                  { content:  <Home id ="ossec-home"/>,
+                  label:  <img  src={logo_ossec}   alt="logo_ossec"/>,
+                  id: 'logo_ossec-tab'
+                  },
+                  { content: <Home id ="ossec-home"/>,
                   label: "Home",
                   id: 'ossec-home-tab'
                 },

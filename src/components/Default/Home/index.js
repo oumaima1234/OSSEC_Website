@@ -148,6 +148,8 @@ class Configuration extends Component {
     
     return (
       <div>
+
+        
       <Grid container >
         <Grid className="item1 " item xs={6}>
         {this.state.isYoutube ?    <YoutubePlayer/> :   <Player/> }
@@ -188,7 +190,6 @@ class Configuration extends Component {
         </Grid>
 
       </Grid> 
-      <br></br>
 
       
       <Typography align="center">

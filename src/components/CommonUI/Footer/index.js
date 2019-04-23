@@ -72,7 +72,7 @@ class Footer extends Component {
             <ul style={{ listStyle: 'none', margin: 0 }}>
               <li>
                 <a
-                  prefetch="true"
+                  prefetch={true}
                   as="/contact"
                   href="/page?type=aboutPages&id=contact"
                 >
@@ -83,7 +83,7 @@ class Footer extends Component {
               </li>
               <li>
                 <a
-                  prefetch="true"
+                  prefetch={true}
                   as="/ferpa"
                   href="/page?type=aboutPages&id=ferpa"
                 >
@@ -94,7 +94,7 @@ class Footer extends Component {
               </li>
               <li>
                 <a
-                  prefetch="true"
+                  prefetch={true}
                   as="/directions-and-attractions"
                   href="/page?type=aboutPages&id=directions-and-attractions"
                 >
@@ -116,7 +116,7 @@ class Footer extends Component {
               </li>
               <li>
                 <a
-                  prefetch="true"
+                  prefetch={true}
                   as="/consumer-information"
                   href="/page?type=aboutPages&id=consumer-information"
                 >
@@ -127,8 +127,7 @@ class Footer extends Component {
               </li>
               <li>
                 <a
-                  //prefetch={true}
-                  prefetch="true"
+                  prefetch={true}
                   as="/consumer-information/non-discrimination/"
                   href="/page?type=aboutPages&id=non-discrimination"
                 >
@@ -157,7 +156,8 @@ class Footer extends Component {
 const styles = theme => ({
   root: {
     marginTop: 30,
-    backgroundColor: `${theme.palette.primary[500]}`,
+    //backgroundColor: `${theme.palette.primary[500]}`,  
+    backgroundColor: '#ebebeb' ,
     borderTop: 'solid 3px #998643',
     paddingTop: '16px',
     overflowX: 'hidden'
@@ -171,7 +171,7 @@ const styles = theme => ({
     marginTop: '8px'
   },
   footerText: {
-    color: '#fff',
+    color: '#000',
     fontSize: '18px',
     lineHeight: 1.5
   },
@@ -183,7 +183,7 @@ const styles = theme => ({
     margin: '8px'
   },
   white: {
-    color: '#ffffff'
+    color: '#000'
   },
   flexContainer: {
     display: 'flex'
