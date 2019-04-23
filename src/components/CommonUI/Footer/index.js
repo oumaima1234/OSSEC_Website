@@ -72,7 +72,7 @@ class Footer extends Component {
             <ul style={{ listStyle: 'none', margin: 0 }}>
               <li>
                 <a
-                  prefetch={true}
+                  prefetch="true"
                   as="/contact"
                   href="/page?type=aboutPages&id=contact"
                 >
@@ -83,7 +83,7 @@ class Footer extends Component {
               </li>
               <li>
                 <a
-                  prefetch={true}
+                  prefetch="true"
                   as="/ferpa"
                   href="/page?type=aboutPages&id=ferpa"
                 >
@@ -94,7 +94,7 @@ class Footer extends Component {
               </li>
               <li>
                 <a
-                  prefetch={true}
+                  prefetch="true"
                   as="/directions-and-attractions"
                   href="/page?type=aboutPages&id=directions-and-attractions"
                 >
@@ -116,7 +116,7 @@ class Footer extends Component {
               </li>
               <li>
                 <a
-                  prefetch={true}
+                  prefetch="true"
                   as="/consumer-information"
                   href="/page?type=aboutPages&id=consumer-information"
                 >
@@ -127,7 +127,8 @@ class Footer extends Component {
               </li>
               <li>
                 <a
-                  prefetch={true}
+                  //prefetch={true}
+                  prefetch="true"
                   as="/consumer-information/non-discrimination/"
                   href="/page?type=aboutPages&id=non-discrimination"
                 >
