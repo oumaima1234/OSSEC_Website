@@ -43,12 +43,27 @@ class Footer extends Component {
               </Grid>
               <Grid
                 className={classes.flexContainer}
+                style={{ justifyContent: 'center' }}
+                item
+                xs={12}
+              >
+                <InvertedButton
+                  style={{ width: '200px' , backgroundColor:'#998643'}}
+                  className={classes.invertedBtnDark}
+                  href="https://franciscan.secure.force.com/form?formid=217772"
+                  title="Request Info"
+                >
+                  Newsletter
+                </InvertedButton>
+              </Grid>
+              <Grid
+                className={classes.flexContainer }
                 style={{ justifyContent: 'flex-end' }}
                 item
                 xs={6}
               >
                 <InvertedButton
-                  style={{ width: '92px' }}
+                  style={{ width: '92px' ,  backgroundColor:'#998643' }}
                   className={classes.invertedBtnDark}
                   href="https://franciscanuniversity.force.com/portal"
                   title="Apply"
@@ -58,7 +73,7 @@ class Footer extends Component {
               </Grid>
               <Grid className={classes.flexContainer} item xs={6}>
                 <InvertedButton
-                  style={{ width: '92px' }}
+                  style={{ width: '92px' ,  backgroundColor:'#998643' }}
                   className={classes.invertedBtnDark}
                   href="https://franciscan.secure.force.com/events"
                   title="Visit"

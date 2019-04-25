@@ -12,8 +12,8 @@ class App extends Component {
         poster="/assets/poster.png"
         src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
         fluid={false}
-       	width="99%" //650
-        height="85%" //600
+       	width="100%" //650
+        height="100%" //600
       />
     );
   }
