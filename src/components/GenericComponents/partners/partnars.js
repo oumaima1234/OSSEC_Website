@@ -33,9 +33,7 @@ export default class Gallery extends React.Component {
       <div onClick={(e) => this.openModal(e, index)}>
         <img src={src} key={src} />
 	<a href="http://www.hartzis.me/react-image-upload/" target="_blank" >
-<Button size="small" color="primary" style={{zIndex:"5"}} >
-  Learn More
-</Button>
+
 </a>
       </div>
     ) 
@@ -117,7 +115,6 @@ class GalleryModal extends React.Component {
           <div className='modal-body'>
             <a href="#" className='modal-close' onClick={closeModal} onKeyDown={this.handleKeyDown}>&times;</a>
             <div className='test3' >
-  <p>Floor Fade Test</p>
   </div>
 	    {hasPrev && <a href="#" className='modal-prev' onClick={findPrev} onKeyDown={this.handleKeyDown}>&lsaquo;</a>}
             {hasNext && <a href="#" className='modal-next' onClick={findNext} onKeyDown={this.handleKeyDown}>&rsaquo;</a>}

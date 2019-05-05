@@ -9,7 +9,7 @@ body {
 	//font-size: 18px;
 }
 .tiles {
-	padding: 6vh 9vw;
+	padding: 2vh 2vw; // my padding 
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: row;
@@ -21,12 +21,12 @@ body {
 	cursor: pointer;
 	overflow: hidden;
 	width: 12vw;
-	height: 12vw;
+	height: 22vw;
 	img {
 		width: 100%;
 		transition: transform 500ms ease;
 		&:hover {
-			transform: scale(1.1);
+			transform: scale(1.2);
 		}
 	}
 }

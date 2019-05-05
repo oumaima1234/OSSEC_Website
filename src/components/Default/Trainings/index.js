@@ -2,7 +2,8 @@ import React, { Component } from "react";
 import { withStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
-
+import GalleryZoom1 from "../../GenericComponents/partners/partners1.js"
+import GalleryZoom2 from "../../GenericComponents/partners/partnars.js"
 
 const styles = theme => ({
   Description: {
@@ -26,7 +27,10 @@ class Supervision extends Component {
               variant="h6"
               component="h3"
             >
-              Training
+              <GalleryZoom1></GalleryZoom1>
+              <h3> which one ??? </h3>
+              <GalleryZoom2></GalleryZoom2>
+
             </Typography>
           </Grid>
         </Grid>

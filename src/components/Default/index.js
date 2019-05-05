@@ -16,7 +16,7 @@ class Default extends Component {
       <Tab id="ilm-main-tab" 
             items = {[
                   { content:  <Home id ="ossec-home"/>,
-                  label:  <img  src={logo_ossec}   alt="logo_ossec"/>,
+                  label:  <img 	width="100%" height= "100%"  src={logo_ossec}   alt="logo_ossec"/>,
                   id: 'logo_ossec-tab'
                   },
                   { content: <Home id ="ossec-home"/>,

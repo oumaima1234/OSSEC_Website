@@ -113,8 +113,7 @@ class Configuration extends Component {
 
     return (
       <div>
-
-       <div style={{marginBottom: "5%"}}>
+       <div className="home-page" style={{marginBottom: "5%"}}>
       <Grid container >
         <Grid className="item1 " item xs={6}>
         {this.state.isYoutube ?    <YoutubePlayer/> :   <Player/> }
