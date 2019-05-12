@@ -1,0 +1,87 @@
+/* Designer credit: https://dribbble.com/shots/1978243-Latest-News */
+
+body, html {
+	overflow-x: hidden;
+      }
+      
+      .app-header {
+	display:block;
+	padding: 100px;
+      }
+      
+      .app-title {
+	display:inline-block;
+	width: 100%;
+	//margin: 0px 0 0 0;
+	//float:left;
+	position:relative;
+	color:#fff;
+	
+	@media(min-width:768px) {
+	  width: 0%;
+	  margin: 0px 0 0 0;
+	}
+	
+	h1 {
+	  font-size: 52px;
+	  margin: 0;
+	}
+	
+	p {
+	  font-weight: 200;
+	  opacity: .5;
+	}
+	
+      }
+      
+      .app-title-content {
+	position:relative;
+	top:50%;
+	left: 50%;
+	width:100%;
+	text-align:center;
+	transform:translate(-50%, -50%);
+	
+	@media(min-width:868px) {
+	  width:auto;
+	  position:absolute;
+	  text-align:left;
+	}
+      }
+      
+      .app-card-list {
+	display:inline-block;
+	width:100%;
+	//float:right;
+	margin:0;
+	min-height: 75vh;
+	white-space:normal;
+	overflow-x: scroll;
+	//margin-top:0px;
+	
+	&::-webkit-scrollbar { 
+	  display: none; 
+	}
+	
+	@media(min-width:768px) {
+	    width:100%;
+	    white-space:nowrap;
+	    margin-top: 0;
+	}
+	
+	.card {
+	  //margin: 20px 10px;
+		display: inline-block;
+		margin-right: 20px;
+		margin-left: 20px;
+	  
+	  .card-body {
+	      white-space: normal;
+	  }
+	}
+      }
+      
+      .designer-link {
+	display:inline-block;
+	//padding-top:10px;
+      }
