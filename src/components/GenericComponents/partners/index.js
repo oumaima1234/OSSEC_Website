@@ -110,7 +110,7 @@ class Tile extends React.Component {
 					style={tileStyle}
 					
 				/>
-				 { this.state.mouseOver && <button class="btn" onClick={this._clickHandler}>Website</button>}
+				 { this.state.mouseOver && <button className="btn" onClick={this._clickHandler}>Website</button>}
 
 			</div>
 		);

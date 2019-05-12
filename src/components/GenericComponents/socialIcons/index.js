@@ -6,13 +6,13 @@ import Icon from '@material-ui/core/Icon';
 const SocialButtonsPage = () => {
   return (
     <div id="social">
-    <a class="facebookBtn smGlobalBtn" href="https://www.facebook.com/ossec.tn/ " target="_blank" ></a>
-    <a class="twitterBtn smGlobalBtn" href="#" target="_blank" ></a>
-    <a class="googleplusBtn smGlobalBtn" href="#" target="_blank"></a>
-    <a class="linkedinBtn smGlobalBtn" href="#" target="_blank"></a>
-    <a class="pinterestBtn smGlobalBtn" href="#" target="_blank"></a>
-    <a class="tumblrBtn smGlobalBtn" href="#" target="_blank"></a>
-    <a class="rssBtn smGlobalBtn" href="#" target="_blank"></a>
+    <a className="facebookBtn smGlobalBtn" href="https://www.facebook.com/ossec.tn/ " target="_blank" ></a>
+    <a className="twitterBtn smGlobalBtn" href="#" target="_blank" ></a>
+    <a className="googleplusBtn smGlobalBtn" href="#" target="_blank"></a>
+    <a className="linkedinBtn smGlobalBtn" href="#" target="_blank"></a>
+    <a className="pinterestBtn smGlobalBtn" href="#" target="_blank"></a>
+    <a className="tumblrBtn smGlobalBtn" href="#" target="_blank"></a>
+    <a className="rssBtn smGlobalBtn" href="#" target="_blank"></a>
   </div>
   );
 }

@@ -96,8 +96,7 @@ class CustomizedTabs extends React.Component {
           value={value}
           onChange={this.handleChange}
           classes={{ root: classes.tabsRoot, indicator: classes.tabsIndicator }}
-          indicatorColor="#81d4fa
-          "
+          indicatorColor="#81d4fa"
 
         >
         {this.props.items.map(item => (

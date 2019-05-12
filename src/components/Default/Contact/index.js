@@ -44,7 +44,7 @@ export class UserForm extends Component {
       case 1:
         return (
         <div>
-          <div class="half">
+          <div className="half">
 
           <FormUserDetails
             nextStep={this.nextStep}
@@ -52,11 +52,11 @@ export class UserForm extends Component {
             values={values}
           />
           </div>
-          <div class="half right ">
+          <div className="half right ">
 
-                <div class="paper">
-                  <div class="lines">
-                  <div class="Lettertext">
+                <div className="paper">
+                  <div className="lines">
+                  <div className="Lettertext">
                     Hello OSSEC Team, <br /><br />
                     I'm {`${firstName} ${lastName}`}. I am from {country}. 
                     <br/><br/>
@@ -71,6 +71,7 @@ export class UserForm extends Component {
                    </div>
                  </div>
           </div>
+          
         </div>
 
 
